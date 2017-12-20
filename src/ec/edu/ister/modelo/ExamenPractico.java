@@ -160,7 +160,7 @@ public class ExamenPractico {
         habitantes=new int[5];
         JOptionPane.showMessageDialog(null,"Carga de paises y habitantes");
         for(int f=0;f<paisesC.length;f++) {
-            paisesC[f]=JOptionPane.showInputDialog("Ingese el nombre del pais:");
+            paisesC[f]=JOptionPane.showInputDialog("Ingrese el nombre del pais:");
             habitantes[f]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de habitantes:"));
         }
            JOptionPane.showMessageDialog(null,"Nombres"+Arrays.toString(paisesC));  
